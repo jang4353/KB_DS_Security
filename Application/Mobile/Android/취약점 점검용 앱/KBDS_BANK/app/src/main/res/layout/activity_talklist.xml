@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <SearchView
+        android:id="@+id/searchForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </SearchView>
+
+    <ListView
+        android:id="@+id/activity_talklistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:divider="@color/colorAccentTransparent"
+        android:dividerHeight="2dp"
+        android:gravity="center"
+        android:listSelector="@color/colorAccent"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="글쓰기"/>
+</TableLayout>

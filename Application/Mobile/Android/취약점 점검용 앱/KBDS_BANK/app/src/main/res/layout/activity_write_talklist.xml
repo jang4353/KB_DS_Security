@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/title_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:ems="10"
+        android:hint="제목"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/content_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="15"
+        android:ems="10"
+        android:hint="내용"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/upload_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="파일 업로드"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/file_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/roundbutton"
+        android:text="파일 업로드" />
+
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/author_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/talklist_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="글쓰기"
+        android:background="@color/colorAccent"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+</TableLayout>

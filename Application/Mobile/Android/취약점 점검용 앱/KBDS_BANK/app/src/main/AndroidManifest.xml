@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.insecurebankv2" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="KBDS BANK"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!--
+        android:theme="@style/AppTheme"-->
+        <activity
+            android:name=".LoginActivity"
+            android:label="KBDS BANK" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FilePrefActivity"
+            android:label="@string/title_activity_file_pref"
+            android:windowSoftInputMode="stateVisible|adjustResize|adjustPan">
+        </activity>
+        <activity
+            android:name=".DoLogin"
+            android:label="@string/title_activity_do_login" >
+        </activity>
+        <activity
+            android:name=".PostLogin"
+            android:exported="true"
+            android:label="메뉴" >
+        </activity>
+        <activity
+            android:name=".WrongLogin"
+            android:label="@string/title_activity_wrong_login" >
+        </activity>
+        <activity
+            android:name=".DoTransfer"
+            android:exported="true"
+            android:label="송금" >
+        </activity>
+        <activity
+            android:name=".ViewStatement"
+            android:exported="true"
+            android:label="계좌 조회" >
+        </activity>
+
+        <provider
+            android:name=".TrackUserContentProvider"
+            android:authorities="com.android.insecurebankv2.TrackUserContentProvider"
+            android:exported="true" >
+        </provider>
+
+        <receiver
+            android:name=".MyBroadCastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="theBroadcast" >
+                </action>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".ChangePassword"
+            android:exported="true"
+            android:label="패스워드 수정" >
+        </activity>
+
+        <activity
+            android:name=".TalkListView"
+            android:exported="true"
+            android:label="게시판" >
+        </activity>
+
+        <activity
+            android:name=".AddTalklist"
+            android:exported="true"
+            android:label="게시판" >
+        </activity>
+
+        <activity
+            android:name=".TalklistDetail"
+            android:exported="true"
+            android:label="게시판" >
+        </activity>
+
+        <activity
+            android:name=".AddUser"
+            android:exported="true"
+            android:label="회원 가입" >
+        </activity>
+
+        <activity
+            android:name=".AccountView"
+            android:exported="true"
+            android:label="계좌 조회" >
+        </activity>
+
+        <activity
+            android:name=".AddAccount"
+            android:exported="true"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="계좌 생성" >
+        </activity>
+
+        <activity
+            android:name=".AccountDetail"
+            android:exported="true"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="계좌 상세 보기" >
+        </activity>
+
+        <activity
+            android:name=".UpdateAccount"
+            android:exported="true"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="잔액 충전" >
+        </activity>
+
+        <activity
+            android:name=".AccountConfirm"
+            android:exported="true"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="비밀번호 확인" >
+        </activity>
+
+    </application>
+
+</manifest>

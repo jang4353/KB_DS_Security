@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Input_Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="아이디" />
+
+    <EditText
+        android:id="@+id/Input_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="패스워드"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/Input_Compare_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="패스워드 확인"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/Create_User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회원 가입"
+        android:textColor="@color/wallet_bright_foreground_holo_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"/>
+
+</LinearLayout>
