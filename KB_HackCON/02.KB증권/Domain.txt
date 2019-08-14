@@ -1,0 +1,32 @@
+
+
+
+	www.kbsec.com
+	
+	campus.kbsec.com
+
+	etcimg.kbsec.com (메인 홈페이지로 리다이렉트, IP주소 다름)
+
+	fdata.kbsec.com (메인 홈페이지로 리다이렉트, IP주소 다름)
+
+	help2.kbsec.com
+
+	m.kbsec.com
+
+	mollasset.kbsec.com
+
+	ollasset.kbsec.com
+	
+	open.kbsec.com (메인 홈페이지로 리다이렉트, IP주소 다름)
+
+	pdfview.kbsec.com
+
+	rc.kbsec.com
+
+	rv.kbsec.com
+
+	stocklive.kbsec.com
+
+	thinkquant.kbsec.com
+
+	vts.kbsec.com
