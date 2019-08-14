@@ -1,0 +1,11 @@
+
+
+	www.kds.co.kr
+	apiportal.kds.co.kr
+	daitso.kds.co.kr
+	efax.kds.co.kr
+	openapi.kds.co.kr
+	smtp.kds.co.kr
+	smtp1.kds.co.kr
+	wms.kds.co.kr
+

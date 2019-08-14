@@ -1,0 +1,14 @@
+
+
+	www.kbsavings.com
+	chat.kbsavings.com
+	www.chat.kbsavings.com
+	devm.kbsavings.com
+	m.kbsavings.com
+	mail.kbsavings.com
+	ns.kbsavings.com
+	ns2.kbsavings.com
+	openapi.kbsavings.com
+	remote.kbsavings.com
+	stgm.kbsavings.com
+	web.kbsavings.com

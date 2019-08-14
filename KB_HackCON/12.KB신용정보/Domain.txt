@@ -1,0 +1,12 @@
+
+
+	www.kbci.co.kr
+	efax.kbci.co.kr
+	mdm.kbci.co.kr
+	rns.kbci.co.kr
+	spam.kbci.co.kr
+	test1.kbci.co.kr
+	test2.kbci.co.kr
+	top.kbci.co.kr
+
+

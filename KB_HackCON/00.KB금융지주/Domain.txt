@@ -1,0 +1,19 @@
+
+
+	www.kbfg.com
+	apiportal.kbfg.com
+	dev-apiportal.kbfg.com
+	dev-openapi.kbfg.com
+	efax.kbfg.com
+	kbcloudpcotp.kbfg.com
+	www.kbcloudpcotp.kbfg.com
+	kbfintech.kbfg.com
+	kblearningspace.kbfg.com
+	m.kbfg.com
+	m-fec.kbfg.com
+	newmail.kbfg.com
+	openapi.kbfg.com
+	receive.kbfg.com
+	spam3.kbfg.com
+
+

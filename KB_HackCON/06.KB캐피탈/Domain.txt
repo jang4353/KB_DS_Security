@@ -1,0 +1,19 @@
+
+
+	www.kbcapital.co.kr
+	app2.kbcapital.co.kr
+	car.kbcapital.co.kr
+	channel.kbcapital.co.kr
+	dev-kbeasy.kbcapital.co.kr
+	dev-openapi.kbcapital.co.kr
+	ems.kbcapital.co.kr
+	kb-smart-record.kbcapital.co.kr
+	kbcc.kbcapital.co.kr
+	kbeasy.kbcapital.co.kr
+	m.kbcapital.co.kr
+	mapr.kbcapital.co.kr
+	msso.kbcapital.co.kr
+	openapi.kbcapital.co.kr
+	st.kbcapital.co.kr
+	tam.kbcapital.co.kr
+	usecar.kbcapital.co.kr
