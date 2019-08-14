@@ -1,14 +1,7 @@
-
-	www.kbstar.com
-
-	obank.kbstar.com
-
-	obiz.kbstar.com
-
-	omoney.kbstar.com
-
-	onland.kbstar.com
-
-	okbfex.kbstar.com
-
-	www.liivmate.com
+www.kbstar.com
+obank.kbstar.com
+obiz.kbstar.com
+omoney.kbstar.com
+onland.kbstar.com
+okbfex.kbstar.com
+www.liivmate.com
